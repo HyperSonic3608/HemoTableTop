@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Pacifico&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="./css/menu.css" />
+    <link rel="stylesheet" href="./css/overlay.css" />
+    <link rel="stylesheet" href="./css/globals.css" />
+    <title>Clitoris Adventure</title>
+    <!-- Só temos um html para que possamos passar parametros do js entre "abas" e para que seja mais fluido -->
+  </head>
+  <body>
+    <audio id="music" src="./audios/audios_lobby-classic-game.mp3" loop></audio>
+    <audio
+      preload
+      id="dadoRolando"
+      src="./audios/audios_dado-rolando.mp3"
+      type="audio/mpeg"></audio>
+    <audio id="music" src="./audios/audios_lobby-classic-game.mp3" loop></audio>
+
+    <div class="overlay">
+      <span class="close">X</span>
+
+      <!-- Configurações de som -->
+      <div class="settings">
+        <h3 class="title">Configurações</h3>
+        <div class="form">
+          <div class="box">
+            <div class="info">Volume</div>
+            <div class="input">
+              <input
+                type="range"
+                name="general"
+                onchange="changeSongsValue(this)" />
+            </div>
+          </div>
+          <div class="box">
+            <div class="info">Musica</div>
+            <div class="input">
+              <input
+                type="range"
+                name="song"
+                onchange="changeSongsValue(this)" />
+            </div>
+          </div>
+          <div class="box">
+            <div class="info">Efeitos</div>
+            <div class="input">
+              <input
+                type="range"
+                name="effects"
+                onchange="changeSongsValue(this)" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Quantidade de jogadores -->
+      <div class="players">
+        <h3 class="title">Jogadores</h3>
+        <form class="form" method="GET" action="./game.html">
+          <div class="box">
+            <input type="text" class="info" value="" name="player0" />
+            <input type="number" name="naipe" />
+            <div class="input">
+              <div class="selectIcon"><div class="icons"></div></div>
+            </div>
+          </div>
+          <div class="box">
+            <input type="text" class="info" value="" name="player1" />
+            <input type="number" name="naipe" />
+            <div class="input">
+              <div class="selectIcon"><div class="icons"></div></div>
+            </div>
+          </div>
+          <div class="box">
+            <input type="text" class="info" value="" name="player2" />
+            <input type="number" name="naipe" />
+            <div class="input">
+              <div class="selectIcon"><div class="icons"></div></div>
+            </div>
+          </div>
+          <div class="box">
+            <input type="text" class="info" value="" name="player3" />
+            <input type="number" name="naipe" />
+            <div class="input">
+              <div class="selectIcon"><div class="icons"></div></div>
+            </div>
+          </div>
+          <div class="buttonHolder">
+            <button type="submit">Jogar</button>
+          </div>
+        </form>
+      </div>
+      <div class="credit">
+        <h3 class="title">Créditos</h3>
+
+        <div class="form">
+          <div class="name">Eduardo Vitorio Gomes Nugas</div>
+          <div class="name">Davi Sollar</div>
+          <div class="name">José Arthur</div>
+          <div class="name">Caique</div>
+          <div class="name">Gustavo Gabriel</div>
+          <div class="name">Marcus Coimbra</div>
+        </div>
+      </div>
+    </div>
+    <div class="menuContainer">
+      <div class="centerContainer">
+        <menu class="menu">
+          <div class="buttons" onclick="startGame()">Jogar</div>
+          <div class="buttons" onclick="callOverlay('settings')">
+            Configurações
+          </div>
+          <div class="buttons" onclick="callOverlay('credit')">Créditos</div>
+        </menu>
+      </div>
+      <div class="copyright"></div>
+    </div>
+
+    <!-- / Menu start \ -->
+
+    <script src="./js/overlay.js"></script>
+    <script src="./js/logic/start.js"></script>
+    <script src="./js/audio.js"></script>
+    <script>
+      updateRanges() //Mudando os valores da settings
+    </script>
+  </body>
+</html>
