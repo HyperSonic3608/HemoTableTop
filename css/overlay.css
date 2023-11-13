@@ -1,0 +1,157 @@
+.overlay {
+  visibility: hidden;
+  position: fixed;
+  height: 85vh;
+  max-width: 60em;
+  width: 80vw;
+  transform: translate(-50%, -50%);
+  transform-origin: center center;
+  top: 50%;
+  left: 50%;
+  z-index: 100;
+  background-color: #b5b5b2;
+  border: 1rem solid #f2f2f2;
+  border-radius: 2rem;
+}
+@media (max-width: 39.9375em) {
+  .overlay {
+    max-width: 95vw;
+    width: 100%;
+  }
+}
+.overlay .close {
+  font-family: "Time News Roman", sans-serif;
+  font-size: 1.75rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -2rem;
+  right: -2rem;
+  color: white;
+  background-color: #b5b5b2;
+  border: 0.35rem solid white;
+  border-radius: 50px;
+  height: 4.5rem;
+  width: 4.5rem;
+  cursor: pointer;
+}
+.overlay .close:hover {
+  transform: scale(1.05);
+}
+.overlay .title {
+  font-size: 4rem;
+  color: white;
+  font-family: "Time News Roman";
+  letter-spacing: 0.5rem;
+  text-align: center;
+  padding: 1rem;
+}
+.overlay .form {
+  border-top: 1px solid white;
+  font-family: "Time News Roman", sans-serif;
+  height: calc(85vh - 11rem);
+  overflow-y: scroll;
+}
+.overlay .form::-webkit-scrollbar {
+  width: 12px;
+  margin: 10px;
+}
+.overlay .form::-webkit-scrollbar-track {
+  background: none;
+  padding: 10px;
+}
+.overlay .form::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 50px;
+}
+.overlay .form::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.8);
+}
+.overlay .form::-webkit-scrollbar-thumb:window-inactive {
+  background: rgba(255, 255, 255, 0.4);
+}
+.overlay .form .box {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 4rem 1rem 4rem;
+  font-size: 2rem;
+  color: white;
+  align-items: center;
+}
+@media (max-width: 39.9375em) {
+  .overlay .form .box {
+    padding: 2rem 1.5rem 1rem 1.5rem;
+  }
+}
+.overlay .form .box .info {
+  white-space: nowrap;
+}
+.overlay .form .box .input {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding-left: 8vw;
+  justify-content: right;
+}
+.overlay .form .box .input input {
+  appearance: none;
+  max-width: 30vw;
+  width: 100%;
+  height: 0.25rem;
+  border-radius: 2rem;
+  outline: none;
+  opacity: 0.7;
+}
+.overlay .form .box .input input:hover {
+  opacity: 1;
+}
+.overlay .form .box .input input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #f2f2f2;
+  cursor: pointer;
+}
+
+.fade-in {
+  animation: fade-in 0.4s ease-in-out forwards;
+}
+
+.fade-out {
+  animation: fade-out 0.4s ease-in-out forwards;
+}
+
+@keyframes fade-in {
+  from {
+    visibility: hidden;
+    transform: scale(0) translate(-50%, -50%);
+    opacity: 0;
+  }
+  1% {
+    visibility: visible;
+  }
+  to {
+    visibility: visible;
+    transform: scale(1) translate(-50%, -50%);
+    opacity: 1;
+  }
+}
+@keyframes fade-out {
+  from {
+    visibility: visible;
+    transform: scale(1) translate(-50%, -50%);
+    opacity: 1;
+  }
+  99% {
+    visibility: hidden;
+  }
+  to {
+    visibility: hidden;
+    transform: scale(0) translate(-50%, -50%);
+    opacity: 0;
+  }
+}/*# sourceMappingURL=overlay.css.map */
