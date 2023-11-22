@@ -5,9 +5,23 @@ const effectsBar = document.querySelector('[name="effects"]')
 const music = document.querySelector('#music')
 const effect = document.querySelector('#dadoRolando')
 
-window.addEventListener('click', () => {
-  music.play()
-})
+document.addEventListener('DOMContentLoaded', (event) => {
+  var audio = document.getElementById('music');
+  if (audio) {
+    audio.play().catch(function(error) {
+      console.error("Falha ao reproduzir áudio: ", error);
+      // Adicione um manipulador de eventos para iniciar a reprodução quando o mouse passar pelos elementos com a classe 'menuContainer'
+      var menuContainers = document.getElementsByClassName('menu');
+      for (var i = 0; i < menuContainers.length; i++) {
+        menuContainers[i].addEventListener('mouseover', function playAudioOnce() {
+          audio.play();
+          // Remova o manipulador de eventos após a primeira interação
+          this.removeEventListener('mouseover', playAudioOnce);
+        });
+      }
+    });
+  }
+});
 
 var general = localStorage.getItem('general') || 50
 var song = localStorage.getItem('song') || 50

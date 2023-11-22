@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/imgs/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/imgs/favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -12,17 +14,16 @@
     <link rel="stylesheet" href="./css/menu.css" />
     <link rel="stylesheet" href="./css/overlay.css" />
     <link rel="stylesheet" href="./css/globals.css" />
-    <title>Clitoris Adventure</title>
+    <title>HemoTableTop</title>
     <!-- Só temos um html para que possamos passar parametros do js entre "abas" e para que seja mais fluido -->
   </head>
   <body>
-    <audio id="music" src="./audios/audios_lobby-classic-game.mp3" loop></audio>
+    <audio id="music" autoplay loop src="audios\menu.mp3" display="none" style="width: 0%;"></audio>
     <audio
       preload
       id="dadoRolando"
       src="./audios/audios_dado-rolando.mp3"
       type="audio/mpeg"></audio>
-    <audio id="music" src="./audios/audios_lobby-classic-game.mp3" loop></audio>
 
     <div class="overlay">
       <span class="close">X</span>
@@ -61,50 +62,14 @@
         </div>
       </div>
       <!-- Quantidade de jogadores -->
-      <div class="players">
-        <h3 class="title">Jogadores</h3>
-        <form class="form" method="GET" action="./game.html">
-          <div class="box">
-            <input type="text" class="info" value="" name="player0" />
-            <input type="number" name="naipe" />
-            <div class="input">
-              <div class="selectIcon"><div class="icons"></div></div>
-            </div>
-          </div>
-          <div class="box">
-            <input type="text" class="info" value="" name="player1" />
-            <input type="number" name="naipe" />
-            <div class="input">
-              <div class="selectIcon"><div class="icons"></div></div>
-            </div>
-          </div>
-          <div class="box">
-            <input type="text" class="info" value="" name="player2" />
-            <input type="number" name="naipe" />
-            <div class="input">
-              <div class="selectIcon"><div class="icons"></div></div>
-            </div>
-          </div>
-          <div class="box">
-            <input type="text" class="info" value="" name="player3" />
-            <input type="number" name="naipe" />
-            <div class="input">
-              <div class="selectIcon"><div class="icons"></div></div>
-            </div>
-          </div>
-          <div class="buttonHolder">
-            <button type="submit">Jogar</button>
-          </div>
-        </form>
-      </div>
       <div class="credit">
         <h3 class="title">Créditos</h3>
 
         <div class="form">
-          <div class="name">Eduardo Vitorio Gomes Nugas</div>
+          <div class="name">Eduardo Nugas</div>
           <div class="name">Davi Sollar</div>
           <div class="name">José Arthur</div>
-          <div class="name">Caique</div>
+          <div class="name">Caique André</div>
           <div class="name">Gustavo Gabriel</div>
           <div class="name">Marcus Coimbra</div>
         </div>
@@ -112,8 +77,11 @@
     </div>
     <div class="menuContainer">
       <div class="centerContainer">
+        <div class="title">
+          <img src="./imgs/title.png" alt="HemoTableTop" class="title" />
+        </div>
         <menu class="menu">
-          <div class="buttons" onclick="startGame()">Jogar</div>
+          <div class="buttons play" onclick="startGame()">Jogar</div>
           <div class="buttons" onclick="callOverlay('settings')">
             Configurações
           </div>
@@ -123,10 +91,13 @@
       <div class="copyright"></div>
     </div>
 
-    <!-- / Menu start \ -->
+    <video id="anim1">
+      <source src="animation/start.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
 
     <script src="./js/overlay.js"></script>
-    <script src="./js/logic/start.js"></script>
+    <script src="./js/start.js"></script>
     <script src="./js/audio.js"></script>
     <script>
       updateRanges() //Mudando os valores da settings

@@ -8,7 +8,7 @@
   transform-origin: center center;
   top: 50%;
   left: 50%;
-  z-index: 100;
+  z-index: 50;
   background-color: rgb(0, 179, 247);
   border: 1rem solid #f2f2f2;
   border-radius: 2rem;
@@ -123,6 +123,12 @@
 
 .fade-out {
   animation: fade-out 0.4s ease-in-out forwards;
+}
+
+#anim1 {
+  display: none;
+  width: 100%;
+  z-index: 9999; /* Adicione esta linha */
 }
 
 @keyframes fade-in {
