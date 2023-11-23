@@ -22,7 +22,7 @@ async function getQuestions() {
     const res = await getQuestions() //Pegandos as perguntas dos JSON
     const questions = res.questions
   
-    var dificulty = house * 3 + 2 //Passando com + 2 pois são 3 perguntas por casa
+    var dificulty = house//Passando com + 2 pois são 3 perguntas por casa
   
     while (usedQuestions.includes(dificulty) && dificulty > 0) {
       //Fazendo com que as perguntas não repitam

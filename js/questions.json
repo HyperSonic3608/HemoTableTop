@@ -1,381 +1,184 @@
 {
   "questions": [
     {
-      "question": "Qual a função do Colo do Útero? ",
-      "rightAnswer": "serve como uma barreira, impedindo que a parte interna do corpo tenha contato com a área externa, no caso, o canal vaginal",
+      "question": "Qual é o nome da artéria que leva sangue do coração para o resto do corpo?",
+      "rightAnswer": "Artéria aorta",
       "wrongAnswers": [
-        "oferece ao embrião condições para seu desenvolvimento  ",
-        "direcionar a saída da urina",
-        "proporcionar o prazer feminino"
+        "Artéria pulmonar",
+        "Artéria carótida",
+        "Artéria renal"
       ]
     },
     {
-      "question": "Qual desses papéis não fazem parte do sistema reprodutor feminino?",
-      "rightAnswer": "direcionar a saída da urina ",
-      "wrongAnswers": ["produzir os óvulos", 
-      "oferece ao embrião condições para seu desenvolvimento", 
-      "executa atividade motora suficiente para expelir o novo quando ele completa sua formação."
-    ]
-    },
-    {
-      "question": "O sistema genital feminino é responsável pela reprodução. Dos órgãos listados abaixo, qual não faz parte desse sistema?",
-      "rightAnswer": "Uretra.",
-      "wrongAnswers": ["Tuba uterina", 
-      "Vagina", 
-      "Clítóris"
-    ]
-    },
-    {
-      "question": "Assinale a função do clitoris",
-      "rightAnswer": "proporcionar o prazer feminino",
-      "wrongAnswers": ["guiar o óvulo fecundado ao útero", 
-      "eliminar a urina presente na bexiga", 
-      "promover a descamação uterina"
-    ]
-    },
-    {
-      "question": "O útero:",
-      "rightAnswer": "é um órgão, em formato de pera, que possui paredes espessas e tem um papel importante na reprodução humana.",
-      "wrongAnswers": ["possui um formato de uma maçã e tem como função servir de local para o desenvolvimento do bebe.", 
-      "é um órgão fibromuscular que possui o formato parecido a uma pêra, localizado no exterior da cavidade pélvica.", 
-      "é um órgão muscular oco de pouca elasticidade, do tamanho e forma semelhante a uma pêra."
-    ]
-    },
-    {
-      "question": "Onde ocorre a fecundação?",
-      "rightAnswer": "Tuba uterina",
-      "wrongAnswers": ["Ovário", 
-      "Uretra", 
-      "Clitóris"
-    ]
-    },
-    {
-      "question": "Qual é a função do ovário?",
-      "rightAnswer": "produção dos hormônios sexuais femininos e a produção e armazenamento dos óvulos",
-      "wrongAnswers": ["proporcionar o prazer feminino", 
-      "auxiliar o sistema excretor", 
-      "abrigar o feto"]
-    },
-    {
-      "question": "Qual a função do útero?",
-      "rightAnswer": "servir de local para o desenvolvimento do bebê",
-      "wrongAnswers": ["produção dos óvulos", 
-      "produção dos hormônios sexuais femininos", 
-      "proporcionar prazer feminino"
-    ]
-    },
-    {
-      "question": "Qual é o nome dos métodos utilizados para evitar a gravidez?",
-      "rightAnswer": "métodos contraceptivos",
-      "wrongAnswers": ["métodos anticontraceptivos", 
-      "métodos sexuais", 
-      "métodos antissexuais"
-    ]
-    },
-    {
-      "question": "“São duas dobras de pele que recobre uma grande quantidade de tecido adiposo. A superfície externa apresenta pelos e circundam garantindo proteção ao restante da vulva.” Essa é a definição de qual parte do sistema reprodutor ?",
-      "rightAnswer": "Pequenos Lábios",
-      "wrongAnswers": ["Grandes Lábios", 
-      "Vestíbulo", 
-      "Clitoris"
-    ]
-    },
-    {
-      "question": "Diferentemente do sistema genital masculino, o feminino há um órgão separado e reservado apenas para a expulsão de urina da bexiga. De qual órgão a citação acima se refere? ",
-      "rightAnswer": "Uretra",
-      "wrongAnswers": ["Pequenos Lábios", 
-      "Abertura Vaginal", 
-      "Clítoris"
-    ]
-    },
-    {
-      "question": "A AIDS é causada pelo(a):",
-      "rightAnswer": "HIV ",
-      "wrongAnswers": ["Hepatites virais B e C", 
-      "DIP", 
-      "HPV"
-    ]
-    },
-    {
-      "question": "(Unir-RO) Sobre a reprodução humana, todos os itens abaixo estão corretos, exceto",
-      "rightAnswer": "A fecundação ocorre no útero.",
-      "wrongAnswers": [" A placenta é responsável pela respiração e nutrição do embrião.", 
-      "Na ovulação, rompe-se a parede do ovário e o ovócito é liberado na trompa de Falópio.", 
-      "A clivagem da célula-ovo origina células denominadas blastômeros"
-    ]
-    },
-    {
-      "question": "Apesar de haver inúmeros métodos contraceptivos, alguns são mais eficazes que outros pelo fato de não apenas prevenir uma gravidez, mas também contra patógenos causadores de ISTs (infecções sexualmente transmissíveis). Assinale a alternativa que contenha um método que possua essas características:",
-      "rightAnswer": "Preservativo (camisinha)",
-      "wrongAnswers": ["Diafragma", 
-      "Anticoncepcional", 
-      "DIU"
-    ]
-    },
-    {
-      "question": "”Funciona como canal do parto, sendo este o local por onde o bebê passa para nascer via parto normal.” De qual Órgão do Sistema Reprodutor Feminino se trata?",
-      "rightAnswer": "Vagina",
-      "wrongAnswers": ["Útero", 
-      "Endométrio", 
-      "Tubas Uterinas"
-    ]
-    },
-    {
-      "question": "De acordo com os profissionais, quanto tempo é considerado normal o período menstrual de uma mulher?",
-      "rightAnswer": "4 a 8 dias",
-      "wrongAnswers": ["8 a 12 dias",
-       "2 a 6 dias", 
-       "6 a 8 dias"
+      "question": "Qual é o nome da veia que leva sangue do corpo de volta ao coração?",
+      "rightAnswer": "Veia cava superior",
+      "wrongAnswers": [
+        "Veia jugular",
+        "Veia renal",
+        "Veia ilíaca"
       ]
     },
     {
-      "question": "Assinale a alternativa que possui apenas órgãos do sistema reprodutor feminino:",
-      "rightAnswer": "tuba uterina, útero e vagina",
-      "wrongAnswers": ["útero, bexiga e ovários", 
-      "Reto, ovários e estômago", 
-      "Rins, bexiga e útero"
-    ]
-    },
-    {
-      "question": "“Tem a função de captar e direcionar o óvulo para o local de fecundação”. De qual órgão do sistema reprodutor feminino se refere?",
-      "rightAnswer": "Tubas Uterinas",
-      "wrongAnswers": ["Ovários", "Útero", "Endométrio"]
-    },
-    {
-      "question": "Assinale a alternativa que não se trata de uma doença do sistema reprodutor feminino.",
-      "rightAnswer": "Uretrite",
-      "wrongAnswers": ["Mioma", "Candidíase", "Endometriose"]
-    },
-    {
-      "question": "“É uma modificação no funcionamento normal do organismo em que as células do tecido que reveste o útero (endométrio), em vez de serem expulsas durante a menstruação, se movimentam no sentido oposto e caem nos ovários ou na cavidade abdominal, onde voltam a multiplicar-se e a sangrar”. A explicação anterior se refere à:",
-      "rightAnswer": "Endometriose",
-      "wrongAnswers": ["HPV", "Cistite", "Osteoporose"]
-    },
-    {
-      "question": "O ciclo menstrual é:",
-      "rightAnswer": "o período entre o início de uma menstruação e outra.",
-      "wrongAnswers": ["é o período em que o corpo que elimina o material proveniente da não fecundação de um óvulo",
-       "o período em que os óvulos se esgotam, gerando o término da menstruação e da fertilidade", 
-       "é o espaço de tempo entre duas menstruações, que se inicia após o término de uma e termina antes do início da outra"
+      "question": "Qual é o nome da válvula que separa o átrio esquerdo do ventrículo esquerdo?",
+      "rightAnswer": "Válvula mitral",
+      "wrongAnswers": [
+        "Válvula tricúspide",
+        "Válvula pulmonar",
+        "Válvula aórtica"
       ]
     },
     {
-      "question": "As mulheres apresentam duas estruturas ovóides com aproximadamente três centímetros de comprimento que são denominadas ovários. Essas estruturas, além de serem responsáveis por dar origem aos óvulos, produzem os hormônios:",
-      "rightAnswer": "glucagon e testosterona",
-      "wrongAnswers": ["insulina e glucagon", "estrógenos e progesterona", "ocitocina e calcitonina"]
+      "question": "Qual é o nome da válvula que separa o átrio direito do ventrículo direito?",
+      "rightAnswer": "Válvula tricúspide",
+      "wrongAnswers": [
+        "Válvula mitral",
+        "Válvula pulmonar",
+        "Válvula aórtica"
+      ]
     },
     {
-      "question": " O útero é uma região do sistema genital feminino que apresenta formato de pêra e liga-se à vagina. Na menstruação, que parte do útero é eliminada?",
-      "rightAnswer": "Endométrio",
-      "wrongAnswers": ["Miométrio", "Pericárdio", "Miocárdio"]
+      "question": "Qual é o nome da artéria que leva sangue do coração para os pulmões?",
+      "rightAnswer": "Artéria pulmonar",
+      "wrongAnswers": [
+        "Artéria aorta",
+        "Artéria carótida",
+        "Artéria renal"
+      ]
     },
     {
-      "question": "O ovócito secundário, após ser liberado no momento da ovulação, vai imediatamente para qual órgão do sistema genital feminino?",
-      "rightAnswer": "tuba uterina",
-      "wrongAnswers": ["útero", "ovário", "vagina"]
+      "question": "Qual é o nome da veia que leva sangue dos pulmões de volta ao coração?",
+      "rightAnswer": "Veia pulmonar",
+      "wrongAnswers": [
+        "Veia cava superior",
+        "Veia jugular",
+        "Veia renal"
+      ]
     },
     {
-      "question": "Marque a sentença incorreta:",
-      "rightAnswer": "O DIU não é indicado para mulheres jovens, já que nem sempre a cirurgia pode ser desfeita",
-      "wrongAnswers": ["A camisinha feminina é tão eficaz quanto a masculina", 
-      "A pílula do dia seguinte não deve ser utilizada corriqueiramente já que sua alta dosagem hormonal pode causar efeitos colaterais", 
-      "O método mais eficaz de prevenir a gravidez é a abstinência sexual."]
+      "question": "Qual é o nome da artéria que leva sangue para o pâncreas?",
+      "rightAnswer": "Artéria pancreática",
+      "wrongAnswers": [
+        "Artéria pulmonar",
+        "Artéria carótida",
+        "Artéria renal"
+      ]
     },
     {
-      "question": "(UFRO) Sobre reprodução humana, todos os itens abaixo estão corretos, exceto:",
-      "rightAnswer": "A fecundação ocorre no útero",
-      "wrongAnswers": [" A espermatogênese ocorre nos testículos", 
-      "A placenta é responsável pela respiração e nutrição do embrião", 
-      "Na ovulação, rompe-se a parede do ovário e o ovócito é liberado na trompa de Falópio"]
+      "question": "Qual é o nome da veia que leva sangue do coração para os pulmões?",
+      "rightAnswer": "Veia pulmonar",
+      "wrongAnswers": [
+        "Veia cava superior",
+        "Veia jugular",
+        "Veia renal"
+      ]
     },
     {
-      "question": "UCDB-MS. Na espécie humana, o óvulo sai do ovário e cai na tuba uterina, de onde passa para o útero. A fecundação e o desenvolvimento ocorrem, respectivamente:",
-      "rightAnswer": "nas tubas uterinas e no útero",
-      "wrongAnswers": ["no oviduto e na vagina", "no útero e nas tubas uterinas", "no útero e na vagina"]
+      "question": "Qual é o nome da artéria que leva sangue para o cérebro?",
+      "rightAnswer": "Artéria carótida",
+      "wrongAnswers": [
+        "Artéria pulmonar",
+        "Artéria aorta",
+        "Artéria renal"
+      ]
     },
     {
-      "question": "Todas são doenças / infecções Sexualmente Transmissíveis (IST), exceto:",
-      "rightAnswer": "Deficiência de Biotinidase",
-      "wrongAnswers": ["Doença Inflamatória Pélvica (DIP)", "Sífilis", "AIDS"]
+      "question": "Qual é o nome da veia que leva sangue do cérebro de volta ao coração?",
+      "rightAnswer": "Veia jugular",
+      "wrongAnswers": [
+        "Veia cava superior",
+        "Veia renal",
+        "Veia ilíaca"
+      ]
     },
     {
-      "question": "São funções do líquido amniótico: I - Permitir o desenvolvimento simétrico. II - Absorção de choques. III - Manter pressão e temperatura constantes. IV - Permitir liberdade de movimento para o embrião/feto em formação. Quais afirmações estão corretas?",
-      "rightAnswer": "Todas estão corretas",
-      "wrongAnswers": ["I e II", "II e III", "I e IV"]
+      "question": "Qual é o nome da artéria que leva sangue para o fígado?",
+      "rightAnswer": "Artéria hepática",
+      "wrongAnswers": [
+        "Artéria aorta",
+        "Artéria carótida",
+        "Artéria renal"
+      ]
     },
     {
-      "question": "A respeito das doenças sexualmente transmissíveis, marque a questão correta:",
-      "rightAnswer": "Uma mulher grávida pode transmitir uma doença sexualmente transmissível ao seu filho.",
-      "wrongAnswers": ["Toda DST é transmitida exclusivamente por relação sexual", 
-      "A camisinha só é eficiente como método para proteger contra a gravidez", 
-      "Todas as doenças sexualmente transmissíveis são caracterizadas pelo aparecimento de lesões"]
+      "question": "Qual é o nome da veia que leva sangue do fígado de volta ao coração?",
+      "rightAnswer": "Veia hepática",
+      "wrongAnswers": [
+        "Veia cava superior",
+        "Veia jugular",
+        "Veia renal"
+      ]
     },
     {
-      "question": "Sobre os sangramentos uterinos relacionados ao Dispositivo Intrauterino (DIU) de cobre, é CORRETO afirmar que:",
-      "rightAnswer": "É mais intenso, nos primeiros três meses, após a inserção, acompanhado de dismenorreia",
-      "wrongAnswers": ["Frequentemente, vem acompanhado de amenorreia ou dor pélvica crônica", 
-      "É comum em mulheres com sangramento uterino aumentado, desde a adolescência", 
-      "Geralmente, vem acompanhado de sangramentos frequentes (epistaxe, equimoses, sangramento gengival)"]
+      "question": "Qual é o nome da artéria que leva sangue para os rins?",
+      "rightAnswer": "Artéria renal",
+      "wrongAnswers": [
+        "Artéria pulmonar",
+        "Artéria aorta",
+        "Artéria carótida"
+      ]
     },
     {
-      "question": "Normalmente, quanto tempo dura o período de gravidez até o parto do bebê.",
-      "rightAnswer": "40 semanas",
-      "wrongAnswers": ["6 meses", "12 meses", "70 semanas"]
+      "question": "Qual é o nome da veia que leva sangue dos rins de volta ao coração?",
+      "rightAnswer": "Veia renal",
+      "wrongAnswers": [
+        "Veia cava superior",
+        "Veia jugular",
+        "Veia ilíaca"
+      ]
     },
     {
-      "question": "No sabonete íntimo, que componente garante suas propriedades para a higiene pessoal, de forma que, não altere o ph vaginal e não cause problemas de higiene?",
-      "rightAnswer": "Ácido lático, utilizado para manter o pH vaginal ácido.",
-      "wrongAnswers": ["Cloreto de sódio, empregado para desinfetar a região vaginal.", 
-      "Fragrância, indicada para disfarçar os odores da região vaginal.", 
-      "Detergente, usado para eliminar as bactérias vaginais por meio da formação de espuma."]
+      "question": "Qual é o nome da artéria que leva sangue para o intestino?",
+      "rightAnswer": "Artéria mesentérica superior",
+      "wrongAnswers": [
+        "Artéria aorta",
+        "Artéria carótida",
+        "Artéria renal"
+      ]
     },
     {
-      "question": "“Acontece por volta dos 50 anos [...], quando os óvulos se esgotam e cessam as menstruações e a fertilidade da mulher” O período citado anteriormente é popularmente chamado de:",
-      "rightAnswer": "Menopausa",
-      "wrongAnswers": ["Climatério", "Menarca", "Períneo"]
+      "question": "Qual é o nome da artéria que leva sangue para o músculo cardíaco?",
+      "rightAnswer": "Artéria coronária",
+      "wrongAnswers": [
+        "Artéria pulmonar",
+        "Artéria aorta",
+        "Artéria carótida"
+      ]
     },
     {
-      "question": "Uma mulher com ciclo menstrual regular de 30 dias menstruou no dia 1 de janeiro. Ela está planejando engravidar. Ela terá mais chances de conseguir engravidar no período de",
-      "rightAnswer": "14 a 16 de janeiro",
-      "wrongAnswers": ["1 a 3 de janeiro", "27 a 29 de janeiro", "21 a 23 de janeiro"]
+      "question": "Qual é o nome da veia que leva sangue do músculo cardíaco de volta ao coração?",
+      "rightAnswer": "Veia coronária",
+      "wrongAnswers": [
+        "Veia cava superior",
+        "Veia jugular",
+        "Veia renal"
+      ]
     },
     {
-      "question": "É conhecido como a fase de transição entre o período fértil e não fertil da mulher:",
-      "rightAnswer": "Climatério",
-      "wrongAnswers": ["Menarca", "Ciclo menstrual", "Gametogênese"]
+      "question": "Qual é o nome da válvula que separa o átrio direito do ventrículo direito?",
+      "rightAnswer": "Válvula tricúspide",
+      "wrongAnswers": [
+        "Válvula mitral",
+        "Válvula pulmonar",
+        "Válvula aórtica"
+      ]
     },
     {
-      "question": "O tempo normal de gestação é de __ semanas ou _ meses, contados a partir da última menstruação. Os Números correspondentes as lacunas acima são:",
-      "rightAnswer": "40 e 9",
-      "wrongAnswers": ["38 e 10", "36 e 8", "34 e 8"]
+      "question": "Qual é o nome da válvula que separa o átrio esquerdo do ventrículo esquerdo?",
+      "rightAnswer": "Válvula mitral",
+      "wrongAnswers": [
+        "Válvula tricúspide",
+        "Válvula pulmonar",
+        "Válvula aórtica"
+      ]
     },
     {
-      "question": "Denominam-se gêmeos dois ou mais irmãos que nascem de uma mesma gestação. Uma mãe deu à luz dois meninos idênticos, também chamados de gêmeos monozigóticos. Esses bebês foram gerados a partir de",
-      "rightAnswer": "um óvulo e um espermatozoide",
-      "wrongAnswers": ["dois óvulos e um espermatozoide", "um óvulo e dois espermatozoides", "dois óvulos e dois espermatozoides"]
-    },
-    {
-      "question": "Sobre os métodos contraceptivos, marque a alternativa incorreta.",
-      "rightAnswer": "A camisinha, além de prevenir uma gravidez não planejada, protege o casal de todas as doenças sexualmente transmissíveis.",
-      "wrongAnswers": ["As pílulas anticoncepcionais podem ser utilizadas no tratamento de acnes, endometriose, cólica e síndrome dos ovários policísticos.", 
-      "Coito interrompido é o método que consiste na retirada do pênis da vagina antes da ejaculação, entretanto, não possui alta eficácia.", 
-      "A laqueadura, em alguns casos, pode ser revertida."]
-    },
-    {
-      "question": "O tipo de parto que é feito através da administração de substâncias, sendo muito usada a ocitocina sintética, similar ao hormônio produzido naturalmente pelo corpo materno durante o parto.",
-      "rightAnswer": "Parto Induzido",
-      "wrongAnswers": ["Parto por forcéps", "Parto a Cesariana", "Parto Normal"]
-    },
-    {
-      "question": "UFMG. Observe a legenda abaixo. 1. Trompa de Falópio 2. Testículo 3. Duto ejaculatório 4. Vagina 5. Duto deferente 6. Epidídimo 7. Uretra 8. Útero | Para que ocorra fecundação, o gameta masculino percorrerá, seqüencialmente:",
-      "rightAnswer": " 2 – 6 – 5 – 3 – 7 – 4 – 8 – 1",
-      "wrongAnswers": ["5 – 2 – 6 – 3 – 4 – 7 – 1 – 8", "6 – 2 – 3 – 5 – 7 – 4 – 8 – 1", "2 – 5 – 6 – 3 – 4 – 7 – 1 – 8"]
-    },
-    {
-      "question": "A parte externa do sistema reprodutor feminino é composta por dois lábios maiores, dois lábios menores, clítoris e vestíbulo vaginal. Esses órgãos, em conjunto, recebem o nome de:",
-      "rightAnswer": "pudendo feminino",
-      "wrongAnswers": ["vagina", "canal vaginal", "uretra"]
-    },
-    {
-      "question": "No sistema genital feminino, entre a borda do hímen e os pequenos lábios, abrem-se canais de glândulas que, sob a ação de estímulos sexuais, produzem um líquido que lubrifica a vagina. Marque a alternativa que contém o nome dessas glândulas.",
-      "rightAnswer": "glândulas de Bartholin",
-      "wrongAnswers": ["glândulas sebáceas", "glândulas bulbouretrais", "glândulas de Cowper"]
-    },
-    {
-      "question": "O sistema genital feminino é formado por órgãos localizados no interior do abdome da mulher e alguns situados externamente. A respeito desse sistema, marque a alternativa correta.",
-      "rightAnswer": "O hímen é uma membrana que recobre parcialmente a entrada da vagina",
-      "wrongAnswers": ["O miométrio é eliminado com sangue no momento da menstruação", 
-      "O ovário é a região do sistema genital feminino onde ocorre o desenvolvimento do embrião", 
-      "O pudendo feminino é formado pelos lábios maiores, lábios menores, vestíbulo vaginal e vagina"]
-    },
-    {
-      "question": "(UECE/2020-2)A gravidez ectópica ocorre quando",
-      "rightAnswer": "a implantação do óvulo fertilizado ocorre fora da cavidade uterina",
-      "wrongAnswers": ["o óvulo e o endométrio sofrem descamação", "a nidação do embrião ocorre no útero", "o embrião se desenvolve a partir de um óvulo sem ocorrer a fecundação"]
-    },
-    {
-      "question": "Como a candidíase é causada?",
-      "rightAnswer": "é causada por fungos do gênero Candida que se proliferam em pontos com dobras no corpo ou espaços do corpo que são mais propensos ao acúmulo de umidade",
-      "wrongAnswers": ["é causada pela bactéria Candida lusitaniae que se prolifera em ambientes secos e limpos", 
-      "é causada pelo consumo excessivo de álcool na vida cotidiana", "é causada pela falta de exercícios físicos diários"]
-    },
-    {
-      "question": "Substância química que recobre a vagina e o colo do útero, impedindo a penetração dos espermatozóides no útero, imobilizando-os ou destruindo-os, é chamada de:",
-      "rightAnswer": "Espermicida",
-      "wrongAnswers": ["Laqueadura", "Anticoncepcional", "DIU"]
-    },
-    {
-      "question": "Na fecundação humana, o óvulo é fertilizado na tuba uterina em geral dentro de ______dias após a ovulação, iniciando quando o espermatozóide penetra o ovócito e terminando com a formação do zigoto ou ovo, e todo o processo leva cerca de ____horas. | Assinale a alternativa que completa corretamente as lacunas do texto",
-      "rightAnswer": "1 a 2 - 24 ",
-      "wrongAnswers": ["5 a 10 - 48", "5 a 10 - 48", "1 a 2 - 48"]
-    },
-    {
-      "question": " O HPV provoca uma doença que ocasiona uma verruga genital, além de ter relação direta com o câncer do colo do útero. Analise as alternativas a seguir e marque o nome da DST provocada pelo HPV.",
-      "rightAnswer": "Condiloma acuminado",
-      "wrongAnswers": ["Sífilis", "Gonorreia", "Herpes genital"]
-    },
-    {
-      "question": "é uma Infecção Sexualmente Transmissível (IST) curável e exclusiva do ser humano, causada pela bactéria Treponema pallidum. Pode apresentar várias manifestações clínicas e diferentes estágios. De qual IST a tese acima se refere?",
-      "rightAnswer": "Sífilis",
-      "wrongAnswers": ["AIDS", "Gonorreia", "Herpes Genital"]
-    },
-    {
-      "question": "Uma atleta possui genitália externa feminina. Em sua cavidade abdominal não se encontram ovários nem útero, mas sim testículos. Sobre isso marque a verdadeira:",
-      "rightAnswer": "No caso desta atleta não existe, em tese, a possibilidade de produção de espermatozóides pela localização dos testículos",
-      "wrongAnswers": ["A atleta produz quantidades normais de progesterona e estrogênio", 
-      "rA ausência de útero, implica a ausência da cavidade vaginal.", 
-      "A quantidade de testosterona produzida pela atleta deve ser igual à de uma mulher normal."]
-    },
-    {
-      "question": "A vasectomia e a laqueadura são métodos anticoncepcionais considerados eficientes e partilham do mesmo o princípio. No caso da vasectomia, o ducto deferente é ligado ou cortado para impedir a passagem do espermatozoide. Na realização da laqueadura, qual a estrutura que precisa ser ligada ou cortada cirurgicamente, para impedir a fecundação do óvulo?",
-      "rightAnswer": "Tubas uterinas",
-      "wrongAnswers": ["Ovócitos", "Ovários", "Colo do útero"]
-    },
-    {
-      "question": "Assinale os sintomas que caracterizam a herpes genital:",
-      "rightAnswer": "Dor, coceira e pequenas feridas na região",
-      "wrongAnswers": ["menstruação irregular, cólicas fortes e ganho de peso",
-       "corrimento vaginal com odor fétido, ardência vaginal e dor nos seios", 
-       "infertilidade, pele acneica e menstruação intensa"]
-    },
-    {
-      "question": "São projeções que recobrem a superfície da bolsa amniótica e penetram no útero. Ao seu redor formam-se lacunas, por onde circula o sangue materno.",
-      "rightAnswer": "Vilosidades Coriônicas",
-      "wrongAnswers": ["Projeções Coriônicas", "Projeções Amnióticas", "Vilosidades Amnióticas"]
-    },
-    {
-      "question": "Em relação a Síndrome do Ovário Policístico (SOP), marque a alternativa correta:",
-      "rightAnswer": "Comum nas mulheres em idade reprodutiva, quem tem essa síndrome costuma ter o ciclo menstrual irregular e ter dificuldade para engravidar",
-      "wrongAnswers": ["O SOP não apresenta nenhum tipo de alteração que não seja ligada ao sistema reprodutor", 
-      "Pode ser evitada, entretanto, seu tratamento é feito na gestão dos sintomas e complicações, como acnes, obesidade e infertilidade",
-      "É uma doença ginecológica causada quando a mucosa que reveste a parte interna do útero cresce em outras regiões do corpo"]
-    },
-    {
-      "question": "São sintomas da fibromialgia:",
-      "rightAnswer": "Dor muscular generalizada e sensibilidade ansiedade, mudanças de humor ou nervosismo",
-      "wrongAnswers": ["Febre, dor nos rins e coceira nas partes íntimas", 
-      "Fezes caracterizadas por pequenas bolinhas duras e separadas como coquinhos, normalmente causado pela falta de fibra", 
-      "A doença na maior parte dos casos é assintomática e só é encontrada em exames de rotina"]
-    },
-    {
-      "question": "O Al Janoub Stadium, estádio de futebol construído para a Copa do Mundo 2022 no Catar, ficou popular nos tempos atuais por ter sua semelhança a um componente do sistema reprodutor feminino. Esse componente é o(a):",
-      "rightAnswer": "Vagina",
-      "wrongAnswers": ["Clitoris", "Tuba Uterina", "Útero"]
-    },
-    {
-      "question": "“As Tubas uterinas são dois tubos, com aproximadamente __ cm de comprimento, que unem os ovários ao útero. A partir disso, o óvulo amadurecido sai do ovário e penetra na tuba.” O número correspondente a lacuna acima é de:",
-      "rightAnswer": "10 cm",
-      "wrongAnswers": ["20 cm", "15cm", "12 cm"]
-    },
-    {
-      "question": "“Na gravidez ele se expande, acomodando o embrião que se desenvolve até o nascimento.” A afirmação a seguir se refere a(o):",
-      "rightAnswer": "Útero",
-      "wrongAnswers": ["Vagina", "Endométrio", "Miométrio"]
-    },
-    {
-      "question": "é a região que localiza-se entre o abdômen e o clitóris, local onde crescem os pelos pubianos. Com a função de proteger o osso pubiano, algumas vezes o volume de gordura acumulado se torna muito proeminente gerando desconforto.",
-      "rightAnswer": "Monte de Vênus",
-      "wrongAnswers": ["Monte de Saturno", "Clitoris", "Vagina"]
+      "question": "Qual é o nome da veia que leva sangue dos rins de volta ao coração?",
+      "rightAnswer": "Veia renal",
+      "wrongAnswers": [
+        "Veia cava superior",
+        "Veia jugular",
+        "Veia ilíaca"
+      ]
     }
   ]
 }

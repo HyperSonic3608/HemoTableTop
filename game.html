@@ -26,22 +26,29 @@
       src="./audios/dado.opus"
       type="audio/opus"></audio>
     <audio id="music" src="./audios/ingame.mp3" loop></audio>
+    <audio id="final" src="./audios/final.mp3" loop></audio>
 
-    <div class="overlay">
-      <div class="close"></div>
-      <div class="right">
-        <h3 class="title">Parabéns!</h3>
-        <span>Você está mais perto do ovulo!</span>
-      </div>
-      <div class="wrong">
-        <h3 class="title">Você se perdeu!</h3>
-        <span>Infelizmente você se perdeu e andou para trás!</span>
-      </div>
-      <video class="win" id="anim4">
-        <source src="animation/finalvideo.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-    </div>
+    <video loop class="win" id="finalazul">
+      <source src="animation/VideoPlayerAzulWin.mp4">
+      Your browser does not support the video tag.
+    </video>
+    <video loop class="win" id="finalverde">
+      <source src="animation/VideoPlayerVerdeWin.mp4">
+      Your browser does not support the video tag.
+    </video>
+    <video class="right" id="anim2">
+      <source src="animation/right.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <video class="wrong" id="anim3">
+      <source src="animation/wrong.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <video class="win" id="anim4">
+      <source src="animation/finalvideo.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    
 
     <div class="dado">
       <img src="imgs/0.png" alt="Dado" id="imgDado" />
@@ -77,6 +84,8 @@
         <div class="answers">
           <button onclick="answer(this)"></button>
           <button onclick="answer(this)"></button>
+          <button onclick="answer(this)"></button>
+          <button onclick="answer(this)"></button>
         </div>
       </div>
     </div>
@@ -96,11 +105,13 @@
     <script src="./js/dado.js"></script>
     <script src="./js/logic/sperm.js"></script>
     <script src="./js/logic/callQuestion.js"></script>
+    <script src="./js/logic/animation.js"></script>
     <script src="./js/overlay.js"></script>
     <script src="./js/logic/game/answers.js"></script>
     <script src="./js/logic/game/board.js"></script>
     <script src="./js/logic/game/walkSperm.js"></script>
     <script src="./js/audio.js"></script>
     <script src="./js/logic/game/turn.js"></script>
+    <script src="./js/logic/game/final.js"></script>
   </body>
 </html>

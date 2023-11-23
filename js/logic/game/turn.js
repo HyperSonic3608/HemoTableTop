@@ -24,11 +24,25 @@ function turnPlay() {
 
   const player = playerContaier.querySelectorAll('.player')[turn]
   const icon = playerContaier.querySelectorAll('.icon')[turn]
-  icon.style.backgroundColor = '#ffffff'
-  icon.style.borderRadius = '2rem'
-  icon.style.animation = 'blink 1.5s linear infinite'; 
-  diceBtn.style.marginLeft = `calc(6.4vw + ${(6.4 + 17) * turn}vw)`
-  diceBtn.style.display = 'block'
+  if (turn == 0) {
+    const icon2 = playerContaier.querySelectorAll('.icon')[1];
+    icon.style.backgroundColor = '#ffffff'
+    icon.style.borderRadius = '2rem'
+    icon.style.animation = 'blink 1.5s linear infinite';
+    icon2.style.backgroundColor = '#ffffff00';
+    icon2.style.animation = 'none';
+    diceBtn.style.display = 'block'
+  }else{
+    const icon2 = playerContaier.querySelectorAll('.icon')[0];
+    icon.style.backgroundColor = '#ffffff'
+    icon.style.borderRadius = '2rem'
+    icon.style.animation = 'blink 1.5s linear infinite';
+    icon2.style.backgroundColor = '#ffffff00';
+    icon2.style.animation = 'none';
+    diceBtn.style.display = 'block'
+  }
+
+  
 }
 
 turnPlay()

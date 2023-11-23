@@ -74,4 +74,9 @@
   }
   .question .answers button:nth-child(odd) {
     float: right;
-  }/*# sourceMappingURL=question.css.map */
+  }
+  #anim2, #anim3, #anim4, #finalverde, #finalazul {
+    display: none;
+    width: 100%;
+    z-index: 9999;
+  }

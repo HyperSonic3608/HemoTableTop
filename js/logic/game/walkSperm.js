@@ -124,7 +124,6 @@ function movePlayer(player, houses) {
       move(player, (downHouses + 1) * 500)
 
       setTimeout(() => {
-        //Saindo da casa 8
         housesLeft = housesLeft - downHouses
         console.log(housesLeft)
 
@@ -253,7 +252,7 @@ function movePlayer(player, houses) {
   sperms[player].style.marginLeft = -totalPosX[player] + 'px'
   sperms[player].style.marginTop = -totalPosY[player] + 'px'
   sperms[player+2].style.marginLeft = -totalPosX[player] + 'px'
-  sperms[player+2].style.marginTop = -totalPosY[player] + 'px'
+  sperms[player+2].style.marginTop = (10 - totalPosY[player]) + 'px'
 }
 
 // A função move foi ajustada para alterar a posição da imagem
@@ -261,7 +260,7 @@ function move(player, time) {
   sperms[player].style.marginLeft = -totalPosX[player] + 'px'
   sperms[player].style.marginTop = -totalPosY[player] + 'px'
   sperms[player+2].style.marginLeft = -totalPosX[player] + 'px'
-  sperms[player+2].style.marginTop = -totalPosY[player] + 'px'
+  sperms[player+2].style.marginTop = (10 -totalPosY[player]) + 'px'
 
   setTimeout(time)
 }

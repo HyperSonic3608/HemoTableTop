@@ -10,7 +10,7 @@
   position: absolute;
   transform: rotate(0deg); /* Alterado de 'rotate' para 'transform' */
   width: 17vw;
-  left: 35vw;
+  left: 0vw;
   right: 0;
   top: 0; /* Adicionado para centralizar verticalmente */
   bottom: 0; /* Adicionado para centralizar verticalmente */
