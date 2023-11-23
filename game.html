@@ -4,8 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="/imgs/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="/imgs/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Pacifico&display=swap"
+      rel="stylesheet" />
     <link rel="stylesheet" href="./css/globals.css" />
     <link rel="stylesheet" href="./css/timer.css" />
     <link rel="stylesheet" href="./css/players.css" />
@@ -27,22 +30,19 @@
     <div class="overlay">
       <div class="close"></div>
       <div class="right">
-        <video id="anim1">
-          <source src="animation/animation1.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
+        <h3 class="title">Parabéns!</h3>
+        <span>Você está mais perto do ovulo!</span>
       </div>
       <div class="wrong">
-        <video id="anim1">
-          <source src="animation/animation1.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
+        <h3 class="title">Você se perdeu!</h3>
+        <span>Infelizmente você se perdeu e andou para trás!</span>
       </div>
       <div class="win">
-        <video id="anim1">
-          <source src="animation/animation1.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
+        <h3 class="title">Parabéns <span id="wonPlayer">player</span>!</h3>
+        <br />
+        <span>Você ganhou a corrida e agora será um lindo bebê!</span><br />
+        <div id="points">Pontuação:</div>
+        <a href="index.html">Jogar de novo!</a>
       </div>
     </div>
 
@@ -65,17 +65,6 @@
         <div class="name"></div>
       </div>
     </div>
-    
-    <div class="question">
-      <!-- Altere o conteúdo da pergunta aqui para o tema "sistema circulatório" -->
-      <div class="timer">
-        <h4 id="time">00:00</h4>
-        <canvas
-          id="myCanvas"
-          width="5000"
-          height="40"
-          style="border: 0px; display: inline-block"></canvas>
-    </div>
 
     <div class="question">
       <div class="timer">
@@ -91,21 +80,29 @@
         <div class="answers">
           <button onclick="answer(this)"></button>
           <button onclick="answer(this)"></button>
-          <button onclick="answer(this)"></button>
-          <button onclick="answer(this)"></button>
         </div>
       </div>
     </div>
 
     <div class="boardHolder">
-      <div class="homos">
+      <div class="sperms">
         <canvas
-          class="homo"
+          class="sperm"
           width="505"
           height="200"
           style="border: 0px; display: inline-block"></canvas>
         <canvas
-          class="homo"
+          class="sperm"
+          width="505"
+          height="200"
+          style="border: 0px; display: inline-block"></canvas>
+        <canvas
+          class="sperm"
+          width="505"
+          height="200"
+          style="border: 0px; display: inline-block"></canvas>
+        <canvas
+          class="sperm"
           width="505"
           height="200"
           style="border: 0px; display: inline-block"></canvas>
