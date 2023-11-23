@@ -8,18 +8,32 @@ const effect = document.querySelector('#dadoRolando')
 document.addEventListener('DOMContentLoaded', (event) => {
   var audio = document.getElementById('music');
   if (audio) {
-    audio.play().catch(function(error) {
+      audio.play().catch(function(error) {
       console.error("Falha ao reproduzir áudio: ", error);
-      // Adicione um manipulador de eventos para iniciar a reprodução quando o mouse passar pelos elementos com a classe 'menuContainer'
-      var menuContainers = document.getElementsByClassName('menu');
-      for (var i = 0; i < menuContainers.length; i++) {
-        menuContainers[i].addEventListener('mouseover', function playAudioOnce() {
-          audio.play();
-          // Remova o manipulador de eventos após a primeira interação
-          this.removeEventListener('mouseover', playAudioOnce);
-        });
-      }
+      document.addEventListener('click', function playAudioOnce() {
+        audio.play();
+        document.removeEventListener('click', playAudioOnce);
+      });
     });
+  }
+});
+
+document.querySelector('.play').addEventListener('click', function() {
+  var audio = document.getElementById('music');
+  if (audio) {
+      audio.pause();
+  }
+
+  var video = document.getElementById('anim1');
+  if (video) {
+      video.style.display = 'block';
+      video.play();
+
+      setTimeout(function() {
+          window.location.href = 'game.html';
+      }, 13000);
+  } else {
+      console.error("Vídeo não encontrado");
   }
 });
 

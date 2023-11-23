@@ -1,5 +1,5 @@
 function startGame() {
-    var menuElements = document.getElementsByClassName('menu');
+    var menuElements = document.getElementsByClassName('menuContainer');
     for (var i = 0; i < menuElements.length; i++) {
         menuElements[i].style.display = 'none';
     }
