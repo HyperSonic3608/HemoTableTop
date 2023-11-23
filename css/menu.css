@@ -23,14 +23,14 @@ body {
 }
 .centerContainer .title {
   width: 100%;
-  animation: zoomInOut 2s infinite;
+  animation: zoomInOut 2.25s infinite;
 }
 @keyframes zoomInOut {
   0% {
     transform: scale(1);
   }
   50% {
-    transform: scale(1.2);
+    transform: scale(1.1);
   }
   100% {
     transform: scale(1);

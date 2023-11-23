@@ -127,7 +127,7 @@
   animation: fade-out 0.4s ease-in-out forwards;
 }
 
-#anim1 {
+#anim1, #anim2, #anim3, #anim4 {
   display: none;
   width: 100%;
   z-index: 9999;

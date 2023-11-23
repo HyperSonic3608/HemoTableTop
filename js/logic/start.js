@@ -5,7 +5,7 @@ const icons = playersDiv.querySelectorAll('.selectIcon')
 const playerIcons = ['♥', '♣', '♦', '♠']
 var selectedIcons = []
 
-var generatedNames = [],
+var generatedNames = ["Azul", "Verde"],
   i = names.length
 
 while (i > 2) {

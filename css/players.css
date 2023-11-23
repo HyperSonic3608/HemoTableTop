@@ -1,40 +1,41 @@
 .players {
     position: fixed;
     display: flex;
-    bottom: 0;
-    transform: translateX(-50%);
-    left: 50%;
+    justify-content: space-between; /* Adicionado para alinhar os jogadores nos cantos */
+    top: 0; /* Alterado de bottom para top */
     width: 100%;
-  }
-  .players .diceRoll {
-    position: absolute;
-    width: 17vw;
-    margin-left: 6.4vw;
-    top: -4vw;
-    height: 5.5vw;
-    cursor: pointer;
-    background-color: #fd6196;
-    border-radius: 1rem 1rem 0 0;
-    color: #f2f2f2;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 700;
-    font-size: 1.8vw;
-  }
-  .players .diceRoll span {
-    position: relative;
-    z-index: 75;
-  }
-  .players .player {
+}
+  
+.players .diceRoll {
+  position: absolute;
+  transform: rotate(0deg); /* Alterado de 'rotate' para 'transform' */
+  width: 17vw;
+  left: 35vw;
+  right: 0;
+  top: 0; /* Adicionado para centralizar verticalmente */
+  bottom: 0; /* Adicionado para centralizar verticalmente */
+  margin: auto; /* Alterado para centralizar tanto horizontalmente quanto verticalmente */
+  height: 5.5vw;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1.8vw;
+  border: 0.3rem black solid;
+  background: linear-gradient(to bottom right, white, white);
+  border-radius: 2rem;
+  font-family: monospace;
+  color: black;
+  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.4s all;
+  padding-inline: 2rem;
+}
+
+
+.players .player {
     position: relative;
     width: 17vw;
     height: 10vw;
-    margin-left: 6.4vw;
-    border: 0.25rem solid #000;
-    border-radius: 20px 20px 0 0;
-    margin-bottom: -0.25rem;
-    background-color: #5bfc8e;
-  }
-  .players .player .name {
+}
+
+.players .player .name {
     position: absolute;
     right: 0;
     bottom: 0;
@@ -45,25 +46,43 @@
     margin-left: 1.5rem;
     text-align: right;
     line-height: 3.5vw;
-  }
-  .players .player .icon {
+}
+
+#p2 .icon {
     position: absolute;
-    left: -4vw;
-    top: -8vw;
-    font-size: 15vw;
-    transform: rotate(-28deg);
+    right: 0rem;
+    top: 0rem;
+    width: 10vw;
     pointer-events: none;
-  }
-  .players .player .score {
+}
+
+#p2 .score {
     position: absolute;
-    right: 0.5rem;
-    top: -1.5rem;
+    left: 1vw;
+    top: -1vw;
     font-size: 3rem;
     color: #f2f2f2;
     font-family: "Pacifico", cursive;
-  }
+}
+
+#p1 .icon {
+  position: absolute;
+  left: 0vw; /* Alterado de right para left */
+  top: 0rem;
+  width: 10vw;
+  pointer-events: none;
+}
+
+#p1 .score {
+  position: absolute;
+  right: 2vw;
+  top: -1vw;
+  font-size: 3rem;
+  color: #f2f2f2;
+  font-family: "Pacifico", cursive;
+}
   
   .testsButtons {
     position: absolute;
     margin-top: 20rem;
-  }/*# sourceMappingURL=players.css.map */
+  }

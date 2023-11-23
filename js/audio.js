@@ -37,9 +37,9 @@ document.querySelector('.play').addEventListener('click', function() {
   }
 });
 
-var general = localStorage.getItem('general') || 50
-var song = localStorage.getItem('song') || 50
-var effects = localStorage.getItem('effects') || 50
+var general = localStorage.getItem('general') || 80
+var song = localStorage.getItem('song') || 80
+var effects = localStorage.getItem('effects') || 80
 
 function updateRanges() {
   generalBar.value = general
@@ -49,9 +49,9 @@ function updateRanges() {
 
 function changeSongsValue(e) {
   localStorage.setItem(e.name, e.value)
-  general = localStorage.getItem('general') || 50
-  song = localStorage.getItem('song') || 50
-  effects = localStorage.getItem('effects') || 50
+  general = localStorage.getItem('general') || 80
+  song = localStorage.getItem('song') || 80
+  effects = localStorage.getItem('effects') || 80
   updateSongs()
 }
 

@@ -31,11 +31,11 @@ function rollDice() {
     movePlayer(turn, houses)
     setTimeout(() => {
       hideDice()
-    }, 2000)
+    }, 1180)
     setTimeout(() => {
       callQuestion(players[turn].score)
     }, 4000)
-  }, 1250)
+  }, 3900)
   return randNum
 }
 

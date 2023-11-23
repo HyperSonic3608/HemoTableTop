@@ -1,12 +1,12 @@
 body {
-    background-color: purple;
+    background-color: rgb(255, 57, 57);
   }
   
   .boardHolder {
     position: absolute;
     width: 100vw;
     height: 85vh;
-    top: 0;
+    top: 15vh;
     left: 0;
     z-index: -10;
     display: flex;
