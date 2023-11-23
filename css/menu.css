@@ -23,17 +23,17 @@ body {
 }
 .centerContainer .title {
   width: 100%;
-  animation: rotate 2.25s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite;
+  animation: zoomInOut 2s infinite;
 }
-@keyframes rotate {
+@keyframes zoomInOut {
   0% {
-    transform: rotate(2deg);
+    transform: scale(1);
   }
   50% {
-    transform: rotate(-2deg);
+    transform: scale(1.2);
   }
   100% {
-    transform: rotate(2deg);
+    transform: scale(1);
   }
 }
 .centerContainer menu {

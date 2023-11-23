@@ -1,0 +1,27 @@
+body {
+    background-color: purple;
+  }
+  
+  .boardHolder {
+    position: absolute;
+    width: 100vw;
+    height: 85vh;
+    top: 0;
+    left: 0;
+    z-index: -10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .boardHolder img {
+    position: absolute;
+    height: 56.25vw;
+    max-height: 100%;
+    width: 100%;
+    pointer-events: none;
+  }
+  @media (min-width: 64em) {
+    .boardHolder img {
+      max-width: 151.1111111111vh;
+    }
+  }/*# sourceMappingURL=board.css.map */

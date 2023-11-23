@@ -1,0 +1,13 @@
+.timer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    align-items: center;
+  }
+  .timer #time {
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    padding-left: 0.5rem;
+    color: rgb(8, 8, 8);
+  }/*# sourceMappingURL=timer.css.map */

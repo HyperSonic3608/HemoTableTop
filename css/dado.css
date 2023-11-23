@@ -1,0 +1,47 @@
+.dado {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 40vh;
+    left: 50%;
+  }
+  
+  #imgDado {
+    width: 20vw;
+    display: none;
+  }
+  
+  @keyframes mover {
+    0% {
+      transform: translateY(0px);
+      transform: rotate(45deg);
+      opacity: 0;
+    }
+    50% {
+      transform: scale(50%);
+    }
+    100% {
+      transform: translateY(-15px);
+      transform: rotate(-45deg);
+      opacity: 1;
+    }
+  }
+  @keyframes aparecer {
+    to {
+      opacity: 0;
+    }
+    from {
+      opacity: 1;
+    }
+  }
+  .animar {
+    animation: mover 0.5s infinite alternate;
+    /*
+    animation: mover .5s infinite alternate;
+    animation: mover .5s linear infinite;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+  }
+  
+  .aparecer {
+    animation: aparecer 1.5s ease-in;
+  }/*# sourceMappingURL=dado.css.map */

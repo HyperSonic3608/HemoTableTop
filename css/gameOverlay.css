@@ -1,0 +1,89 @@
+.overlay {
+    visibility: hidden;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    transform-origin: center center;
+    top: 50%;
+    left: 50%;
+    z-index: 125;
+    background-color: #fc5e5b;
+    border: 0.5rem solid #f2f2f2;
+    border-radius: 2rem;
+    padding: 1rem 2rem;
+    text-align: center;
+  }
+  .overlay span {
+    margin-top: 1rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    color: black;
+  }
+  .overlay #points {
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+  }
+  .overlay a {
+    color: #f2f2f2;
+    font-size: 1.25rem;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 2rem;
+  }
+  .overlay a::before {
+    content: "\a";
+    white-space: pre;
+  }
+  .overlay .title {
+    font-size: 2rem;
+    color: black;
+    font-family: "Pacifico", cursive;
+    letter-spacing: 0.25rem;
+    text-align: center;
+  }
+  .overlay .title span {
+    font-size: 2rem;
+    color: black;
+    font-family: "Pacifico", cursive;
+    letter-spacing: 0.25rem;
+  }
+  
+  .fade-in {
+    animation: fade-in 0.4s ease-in-out forwards;
+  }
+  
+  .fade-out {
+    animation: fade-out 0.4s ease-in-out forwards;
+  }
+  
+  @keyframes fade-in {
+    from {
+      visibility: hidden;
+      transform: scale(0) translate(-50%, -50%);
+      opacity: 0;
+    }
+    1% {
+      visibility: visible;
+    }
+    to {
+      visibility: visible;
+      transform: scale(1) translate(-50%, -50%);
+      opacity: 1;
+    }
+  }
+  @keyframes fade-out {
+    from {
+      visibility: visible;
+      transform: scale(1) translate(-50%, -50%);
+      opacity: 1;
+    }
+    99% {
+      visibility: hidden;
+    }
+    to {
+      visibility: hidden;
+      transform: scale(0) translate(-50%, -50%);
+      opacity: 0;
+    }
+  }/*# sourceMappingURL=gameOverlay.css.map */
