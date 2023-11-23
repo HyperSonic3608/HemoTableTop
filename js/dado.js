@@ -34,7 +34,7 @@ function rollDice() {
     }, 1180)
     setTimeout(() => {
       callQuestion(players[turn].score)
-    }, 4000)
+    }, 2000)
   }, 3900)
   return randNum
 }

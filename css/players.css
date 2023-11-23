@@ -48,6 +48,13 @@
     line-height: 3.5vw;
 }
 
+@keyframes blink {
+  0% {background-color: #ffffff;}
+  50% {background-color: #ffffff00;}
+  100% {background-color: #ffffff;}
+}
+
+
 #p2 .icon {
     position: absolute;
     right: 0rem;

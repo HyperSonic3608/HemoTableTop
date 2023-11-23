@@ -6,11 +6,11 @@ function addMargin(player) {
   sperms[player].style.marginLeft = `${players[player].score}px`
 }
 
-const minLeftMargin = (55 * board.width) / 1920
-const minTopMargin = (30 * board.height) / 1080
+const minLeftMargin = (60 * board.width) / 1920
+const minTopMargin = (45 * board.height) / 1080
 
-const randomPosX = [5, 20, 10, 30]
-const randomPosY = [5, 20, 40, 50]
+const randomPosX = [5, 200, 5, 200]
+const randomPosY = [3, 110, 33, 140]
 
 var totalPosX = []
 var totalPosY = []
@@ -20,7 +20,7 @@ const houseHeight = (174 * board.height) / 1080
 
 //Colocando os jogadores na posição inicial com base na escala e tablueiro
 for (let i = 0; i < 4; i++) {
-  var scale = (board.width * 0.2) / 1166
+  var scale = (board.width * 0.2) / 3829 // Alterado de 1166 para 3829
   sperms[i].style.transform = `scale(${scale})`
   scale = scale ** -1
 
@@ -39,10 +39,9 @@ for (let i = 0; i < 4; i++) {
   sperms[i].style.marginLeft = -totalPosX[i] + 'px'
 }
 
-/*
-A movimentação do jogador recebe a quantidade de casas e utilizando de diversas condicionais adciona ou remove os valores dos arrays totalPosY e totalPosX
-*/
+// Resto do código...
 
+// A função movePlayer foi ajustada para alterar a posição da imagem
 function movePlayer(player, houses) {
   changePlayer(player)
 
@@ -249,14 +248,20 @@ function movePlayer(player, houses) {
     }
     move(player, housesLeft * 500)
   }
-}
 
-function move(player, time) {
-  startAnimation()
+  // Atualize a posição da imagem
   sperms[player].style.marginLeft = -totalPosX[player] + 'px'
   sperms[player].style.marginTop = -totalPosY[player] + 'px'
+  sperms[player+2].style.marginLeft = -totalPosX[player] + 'px'
+  sperms[player+2].style.marginTop = -totalPosY[player] + 'px'
+}
 
-  setTimeout(() => {
-    stopAnimation()
-  }, time)
+// A função move foi ajustada para alterar a posição da imagem
+function move(player, time) {
+  sperms[player].style.marginLeft = -totalPosX[player] + 'px'
+  sperms[player].style.marginTop = -totalPosY[player] + 'px'
+  sperms[player+2].style.marginLeft = -totalPosX[player] + 'px'
+  sperms[player+2].style.marginTop = -totalPosY[player] + 'px'
+
+  setTimeout(time)
 }
