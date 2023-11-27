@@ -1,5 +1,4 @@
 async function getQuestions() {
-    //Pegando as perguntas
     const res = await fetch('./js/questions.json')
     const json = await res.json()
     return json
@@ -12,37 +11,31 @@ async function getQuestions() {
   const ansewrs = document.querySelector('.answers').children
   
   async function callQuestion(house) {
-    //Fazendo com que as ultimas perguntas sejam da vitoria
     if (house > 19) {
       house = 19
     }
-    //Passa o número da casa, a função calcula sozinha qual pergunta usar
     questionContainer.style.height = '100vh'
-    var usedBoxes = [0, 1, 2, 3] //Usado para randomizar as perguntas
-    const res = await getQuestions() //Pegandos as perguntas dos JSON
+    var usedBoxes = [0, 1, 2, 3]
+    const res = await getQuestions()
     const questions = res.questions
   
-    var dificulty = house//Passando com + 2 pois são 3 perguntas por casa
+    var dificulty = house
   
     while (usedQuestions.includes(dificulty) && dificulty > 0) {
-      //Fazendo com que as perguntas não repitam
       dificulty--
     }
   
-    questionTitle.innerText = questions[dificulty].question //Escrevendo a pergunta
+    questionTitle.innerText = questions[dificulty].question
   
-    const answerLoc = Math.floor(Math.random() * 4) //Pegando um indice para a pergunta certa
+    const answerLoc = Math.floor(Math.random() * 4)
   
-    //Limpandos estilos dos botões
+    ansewrs[answerLoc].innerText = questions[dificulty].rightAnswer
   
-    ansewrs[answerLoc].innerText = questions[dificulty].rightAnswer //Escrevendo a pergunta certa
-  
-    usedBoxes.splice(answerLoc, 1) // Tirando a caixa usada pela pergunta certa
+    usedBoxes.splice(answerLoc, 1)
   
     var wrongAnswers = questions[dificulty].wrongAnswers
   
     for (var i = wrongAnswers.length - 1; i > 0; i--) {
-      //Randomizando as perguntas erradas
       var j = Math.floor(Math.random() * (i + 1))
       var temp = wrongAnswers[i]
       wrongAnswers[i] = wrongAnswers[j]
@@ -50,7 +43,6 @@ async function getQuestions() {
     }
   
     usedBoxes.forEach((res, i) => {
-      //Escrevendo as perguntas erradas
       ansewrs[res].innerText = wrongAnswers[i]
     })
   
@@ -74,7 +66,7 @@ async function getQuestions() {
     }
     setTimeout(() => {
       closeQuestion()
-    }, 500)
+    }, 1000)
   }
   
   function closeQuestion() {

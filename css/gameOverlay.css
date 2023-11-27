@@ -3,48 +3,46 @@
     position: fixed;
     transform: translate(-50%, -50%);
     transform-origin: center center;
-    top: 50%;
+    top: 80%;
     left: 50%;
     z-index: 125;
-    background-color: #fc5e5b;
-    border: 0.5rem solid #f2f2f2;
+    background-color: #fc5e5b00;
     border-radius: 2rem;
-    padding: 1rem 2rem;
     text-align: center;
   }
   .overlay span {
     margin-top: 1rem;
-    font-family: "Montserrat", sans-serif;
+    font-family: monospace;
     font-size: 1.5rem;
-    color: black;
+    color: rgb(255, 255, 255);
   }
   .overlay #points {
     margin-top: 0.5rem;
     font-size: 1.5rem;
-    color: black;
-    font-family: "Montserrat", sans-serif;
+    color: rgb(255, 255, 255);
+    font-family: monospace;
   }
   .overlay a {
-    color: #f2f2f2;
+    color: black;
     font-size: 1.25rem;
     text-decoration: none;
-    font-family: "Montserrat", sans-serif;
+    font-family: monospace;
     margin-top: 2rem;
-  }
-  .overlay a::before {
-    content: "\a";
-    white-space: pre;
+    border: 0.3rem black solid;
+    background: linear-gradient(to bottom right, white, white);
+    border-radius: 2rem;
+    padding: 0.3rem 1.5rem;
   }
   .overlay .title {
     font-size: 2rem;
-    color: black;
+    color: rgb(255, 255, 255);
     font-family: "Pacifico", cursive;
     letter-spacing: 0.25rem;
     text-align: center;
   }
   .overlay .title span {
     font-size: 2rem;
-    color: black;
+    color: rgb(255, 255, 255);
     font-family: "Pacifico", cursive;
     letter-spacing: 0.25rem;
   }
@@ -86,4 +84,4 @@
       transform: scale(0) translate(-50%, -50%);
       opacity: 0;
     }
-  }/*# sourceMappingURL=gameOverlay.css.map */
+  }

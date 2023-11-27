@@ -1,0 +1,20 @@
+.hemos {
+    position: relative;
+    height: 56.25vw;
+    max-height: 100%;
+    width: 100%;
+    pointer-events: none;
+    z-index: 100;
+  }
+  @media (min-width: 64em) {
+    .hemos {
+      max-width: 151.1111111111vh;
+    }
+  }
+  .hemos .hemo {
+    position: absolute;
+    display: flex;
+    top: 0;
+    left: 0;
+    transition: all ease-in-out 3s;
+  }

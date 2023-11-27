@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/imgs/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/imgs/favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -12,7 +14,7 @@
     <link rel="stylesheet" href="./css/globals.css" />
     <link rel="stylesheet" href="./css/timer.css" />
     <link rel="stylesheet" href="./css/players.css" />
-    <link rel="stylesheet" href="./css/sperm.css" />
+    <link rel="stylesheet" href="./css/hemo.css" />
     <link rel="stylesheet" href="./css/question.css" />
     <link rel="stylesheet" href="./css/dado.css" />
     <link rel="stylesheet" href="./css/board.css" />
@@ -26,7 +28,7 @@
       src="./audios/dado.opus"
       type="audio/opus"></audio>
     <audio id="music" src="./audios/ingame.mp3" loop></audio>
-    <audio id="final" src="./audios/final.mp3" loop></audio>
+    <audio id="music" src="./audios/final.mp3" loop></audio>
 
     <video loop class="win" id="finalazul">
       <source src="animation/VideoPlayerAzulWin.mp4">
@@ -49,6 +51,15 @@
       Your browser does not support the video tag.
     </video>
     
+    <div class="overlay">
+      <div class="win">
+        <h3 class="title">Parabéns <span id="wonPlayer">player</span>!</h3>
+        <br />
+        <span>Você completou o percurso!</span><br />
+        <div id="points">Pontuação: </div><br>
+        <a href="index.html">Jogar de novo!</a>
+      </div>
+    </div>
 
     <div class="dado">
       <img src="imgs/0.png" alt="Dado" id="imgDado" />
@@ -91,11 +102,11 @@
     </div>
 
     <div class="boardHolder">
-      <div class="sperms">
-        <img class="sperm" src="imgs/globinhoRight.png" style="z-index: 99;" alt="Player Azul">
-        <img class="sperm" src="imgs/globinhoRight.png" style="z-index: 99;" alt="Player Verde">
-        <img class="sperm" src="imgs/sombraazulplayer.PNG"  alt="">
-        <img class="sperm" src="imgs/sombraVerdeplayer.PNG"  alt="">
+      <div class="hemos">
+        <img class="hemo" src="imgs/globinhoRight.png" style="z-index: 99;" alt="Player Azul">
+        <img class="hemo" src="imgs/globinhoRight.png" style="z-index: 99;" alt="Player Verde">
+        <img class="hemo" src="imgs/sombraazulplayer.PNG"  alt="">
+        <img class="hemo" src="imgs/sombraVerdeplayer.PNG"  alt="">
       </div>
       <img src="./imgs/board.png" alt="" />
     </div>
@@ -103,13 +114,12 @@
     <script src="./js/logic/temporizador.js"></script>
     <script src="./js/logic/startingGame.js"></script>
     <script src="./js/dado.js"></script>
-    <script src="./js/logic/sperm.js"></script>
+    <script src="./js/logic/hemo.js"></script>
     <script src="./js/logic/callQuestion.js"></script>
-    <script src="./js/logic/animation.js"></script>
     <script src="./js/overlay.js"></script>
     <script src="./js/logic/game/answers.js"></script>
     <script src="./js/logic/game/board.js"></script>
-    <script src="./js/logic/game/walkSperm.js"></script>
+    <script src="./js/logic/game/walkhemo.js"></script>
     <script src="./js/audio.js"></script>
     <script src="./js/logic/game/turn.js"></script>
     <script src="./js/logic/game/final.js"></script>

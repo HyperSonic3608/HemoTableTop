@@ -129,7 +129,8 @@
 
 #anim1 {
   display: none;
-  width: 100%;
+  width: 100vw;
+  height: 100vh;
   z-index: 9999;
 }
 

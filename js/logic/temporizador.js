@@ -42,7 +42,7 @@ function clearTimer() {
 function animate() {
   timerCtx.beginPath()
   timerCtx.arc(x, 20, 20, 0, 2 * Math.PI)
-  timerCtx.fillStyle = 'rgb(166, 49, 172)'
+  timerCtx.fillStyle = 'rgb(95, 121, 255)'
   timerCtx.fill()
   timerCtx.closePath()
   x = x + window.innerWidth / 250

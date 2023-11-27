@@ -35,13 +35,9 @@
   }
   .animar {
     animation: mover 0.5s infinite alternate;
-    /*
-    animation: mover .5s infinite alternate;
-    animation: mover .5s linear infinite;
-    animation-iteration-count: infinite;
-    animation-direction: alternate; */
+    
   }
   
   .aparecer {
     animation: aparecer 1.5s ease-in;
-  }/*# sourceMappingURL=dado.css.map */
+  }

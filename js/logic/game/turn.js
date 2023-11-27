@@ -1,6 +1,6 @@
 var winner = null
 
-var turn = -1 //Evitando dor de cabeça...
+var turn = -1 
 
 function clearColor() {
   for (let i = 0; i < playerContaier.querySelectorAll('.player').length; i++) {
