@@ -1,0 +1,5 @@
+﻿{
+  "Description": "Arquivo de verificação de propriedade do domínio para Microsoft 365 local na raiz do site",
+  "Domain": "hemotabletop.vercel.app",
+  "Id": "33990c29-0e6f-4661-bfae-436b7a62bcee"
+}
